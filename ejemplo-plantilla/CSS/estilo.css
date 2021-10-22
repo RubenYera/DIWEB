@@ -1,0 +1,38 @@
+body {
+    background-color: #D3D3D3;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+h2 {
+    padding-left: 1%;
+    font-size: 200%;
+    color: #FFFFFF;
+    background-color: #808080;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 4%;
+}
+
+em {
+    color: red;
+}
+
+strong {
+    background-color: white;
+}
+
+img {
+    float: left;
+}
