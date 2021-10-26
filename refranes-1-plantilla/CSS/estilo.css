@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    font-size: 150%;
+    
+}
+h1 {
+    border: 5px solid;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    margin-bottom: auto;
+    text-align: justify;
+}
+.a {
+    border-left: double 20px #ff0000
+    ;
+    border-top: double 20px #ff0000
+    ;  
+}
+  
+.b {
+    border-color: #0000ff #008000;
+    border-width: 5px 10px 20px 40px;
+    border-style: dashed;
+}
+  
+.c {
+    border-color: #ffd700;
+    border-width: 40px 10px;
+    border-style: double;
+}
+  
+p.d {
+    border-color: #00ff00 #000000 #0000ff;
+    border-width: 20px;
+    border-style: solid none;
+}
+  
+e {
+    border-color: #ff0000 #000000 #000000;
+    border-width: 40px;
+    border-style: dashed solid dotted;
+}
+  
+.f {
+    border-color: #000000 #000000 #000000 #ff0000;
+    border-width: 10px 40px 20px;
+    border-style: dotted solid dashed double;
+}
