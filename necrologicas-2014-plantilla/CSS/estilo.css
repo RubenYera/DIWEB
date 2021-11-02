@@ -1,0 +1,75 @@
+@font-face {
+    font-family: gabriela;
+    src: url(../gabriela.woff);
+}
+
+@font-face {
+    font-family: cabin;
+    src: url(../cabin-sketch.woff);
+}
+body {
+    background-color: #C7C8D1;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: #575A75;
+    text-align: center;
+    font-family: cabin;
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+h2 {
+    color: #ffffff;
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: gabriela;
+    font-size: 2rem;
+}
+div {
+    padding: 2px 10px;
+}
+div p {
+    margin: 0;
+}
+div.vida {
+    margin: 0px 10px;
+}
+
+article.futbol {
+    background-color: #FFA666;
+    margin: 10px 4%;
+    border: 5px solid #cc4400;
+    border-radius: 0px 25px 25px 25px;
+}
+
+article.futbol h2 {
+    border-top-right-radius: 15px;
+    background-color: #CC5500;
+}
+
+article.futbol div.datos {
+    background-color: #DB5B00;
+}
+article.literatura {
+    background-color: #FFCCFF;
+    margin: 10px 4%;
+    border: 5px solid #e600e6;
+    border-radius: 25px 0px 25px 0px;
+}
+
+article.literatura h2 {
+    border-top-left-radius: 15px;
+    background-color: #E600E6;
+}
+article.literatura div.datos {
+    background-color: #FF80FF;
+}
+
+div.datos {
+    margin-top: 0px;
+}
+
