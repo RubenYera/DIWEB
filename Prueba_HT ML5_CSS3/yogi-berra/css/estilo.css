@@ -1,0 +1,53 @@
+@font-face {
+    font-family: slackey;
+    src: url(../fonts/slackey.woff2);
+}
+body {
+    text-align: justify;
+    background: url("../img/violeta.png")  repeat-y top left, url("../img/violeta.png") repeat-y right top;
+    background-size: 30px;
+    background-color: #a4c6ec;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family: slackey;
+    color: #5c59a4;
+}
+
+hr {
+    background-color: #5c59a4;
+    height: 5px;
+}
+
+p#vida {
+    background-color: white;
+    vertical-align: text-top;
+}
+
+p#vida img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.p1 {
+    background-color: #f28226;
+    color: white;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    border: 5px dashed ;
+}
+
+.p2 {
+    background-image: url(../img/verde.png);
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    border: 3px green solid;
+    border-radius: 10px;
+    text-align: center;
+}
