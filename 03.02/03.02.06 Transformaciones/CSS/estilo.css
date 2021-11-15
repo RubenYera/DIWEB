@@ -28,64 +28,118 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-    font-family: sans-serif;
-}
-div {
-    width: 240px;
-    height: 240px;
-    display: inline-block;
-    margin: 20px;
+.container{
+    position: relative;
+  }
+  .caja{
+    width: 180px;
+    height: 180px;
     background-color: #30B037;
-}
-div p {
+    color: #FFF;
     text-align: center;
-    margin-top: 40%;
-    margin-bottom: 40%;
-    color: white;
-}
-#c1:hover {
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+  }
+.caja1 {
     background-color: #C0392B;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja1:hover {
+    -webkit-transform: scale(0.7);
     transform: scale(0.7);
 }
-#c2:hover {
+.caja2 {
     background-color: #9B59B6;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja2:hover {
+    -webkit-transform: rotate(-40deg);
     transform: rotate(-40deg);
 }
-#c3:hover {
+.caja3 {
     background-color: #2980B9;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja3:hover {
+    -webkit-transform: skew(10deg);
     transform: skew(10deg);
 }
-#c4:hover {
+.caja4 {
     background-color: #3498DB;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja4:hover {
+    -webkit-transform:skewX(10deg);
     transform:skewX(10deg);
 }
-#c5:hover {
+.caja5 {
     background-color: #17A589;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja5:hover {
+    -webkit-transform:skewY(10deg);
     transform:skewY(10deg);
 }
-#c6:hover {
+.caja6 {
     background-color: #F1C40F;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja6:hover {
+    -webkit-transform: translate(20px);
     transform: translate(20px);
 } 
-#c7:hover {
+.caja7 {
     background-color: #E67E22;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja7:hover {
+    -webkit-transform: translateX(20px);
     transform: translateX(20px);
 }
-#c8:hover {
+.caja8 {
     background-color: #95A5A6;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja8:hover {
+    -webkit-transform:translateY(20px);
     transform: translateY(20px);
 }
-#c9:hover {
+.caja9 {
     background-color: #2C3E50;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja9:hover {
+    -webkit-transform: perspective(400px) rotateX(45deg);
     transform: perspective(400px) rotateX(45deg);
 
 }
-#c10:hover {
+.caja10 {
     background-color: #95A5A6;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja10:hover {
+    -webkit-transform: perspective(400px) rotateY(45deg);
     transform: perspective(400px) rotateY(45deg);
 }
-#c11:hover {
+.caja11 {
     background-color: #95A5A6;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja11:hover {
+    -webkit-transform: matrix(1, 2, -1, 1, 80, 80);
     transform: matrix(1, 2, -1, 1, 80, 80);
 }
