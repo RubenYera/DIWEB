@@ -28,49 +28,67 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-    font-family: sans-serif;
+.container{
+    position: relative;
 }
-div {
-    width: 240px;
-    height: 240px;
-    display: inline-block;
-    margin: 20px;
-    background-color: #30B037;
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
 }
-div p {
-    text-align: center;
-    margin-top: 40%;
-    margin-bottom: 40%;
-    color: white;
-}
-#c1:hover {
+.caja1:hover {
     background-color: #C0392B;
 }
-#c2:hover {
+.caja2:hover {
     background-color: #9B59B6;
+    transition: font-size 0.5s ease-in-out 0.5s;
+    font-size: 20px;
 }
-#c3:hover {
+.caja3:hover {
     background-color: #2980B9;
+    transition: color 0.5s ease-in-out 0.5s;
+    color: black;
 }
-#c4:hover {
+.caja4:hover {
     background-color: #3498DB;
+    transition: Line-height 0.5s ease-in-out 0.5s;
+    line-height: 2em;
+
 }
-#c5:hover {
+.caja5:hover {
     background-color: #17A589;
+    transition: Border-radius 0.5s ease-in-out 0.5s;
+    border-radius: 20px;
 }
-#c6:hover {
+.caja6:hover {
     background-color: #F1C40F;
+    transition: box-shadow 0.5s ease-in-out 0.5s;
+    box-shadow: 10px 10px 5px 1px rgba(0.5, 1, 1, 0.2);
 }
-#c7:hover {
+.caja7:hover {
     background-color: #E67E22;
+    transition: opacity 0.5s ease-in-out 0.5s;
+    opacity: 0.5;
 }
-#c8:hover {
+.caja8:hover {
     background-color: #95A5A6;
+    transition: border 0.5s ease-in-out 0.5s;
+    border: 3px solid black;
 }
-#c9:hover {
+.caja9:hover {
     background-color: #2C3E50;
+    transition: margin 0.5s ease-in-out 0.5s;
+    margin: 30px;
 }
-#c10:hover {
+.caja10:hover {
     background-color: #000000;
+    transition: padding 0.5s ease-in-out 0.5s;
+    padding: 20px;
 }
