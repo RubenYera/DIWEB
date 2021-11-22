@@ -1,12 +1,3 @@
-/*Usando anidamiento crear la hoja de estilos para un menú */
-@keyframes iluminar {
-    from {
-        @include set_colores_normales;
-    }
-    to {
-        @include set_colores_hover;
-    }
-}
 nav {
     position: absolute;
     width: 100%;
@@ -20,23 +11,6 @@ nav {
             position: absolute;
             height: 0px;
             overflow: hidden;
-        }
-        li {
-            .categoria {
-                float: left;
-            }
-            .categoria>a{
-                @include transicion (padding,0.4s,ease-out);
-            }
-            .categoria:hover>a {
-                padding: 10px 20px;
-            }
-            .categoria:hover{
-                height: 100px;
-                ul.submenu {
-                    height: 100px;
-                }
-            }
         }
     }
     >ul {
@@ -60,3 +34,20 @@ nav {
         @include animacion(iluminar,0.4s,linear);
     }
 }
+
+
+    .categoria {
+        float: left;
+    }
+    .categoria>a{
+        @include transicion (padding,0.4s,ease-out);
+    }
+    .categoria:hover>a {
+        padding: 10px 20px;
+    }
+    .categoria:hover{
+        height: 100px;
+        ul.submenu {
+            height: 100px;
+        }
+    }

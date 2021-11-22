@@ -1,4 +1,23 @@
-@charset "UTF-8";
+@-webkit-keyframes iluminar {
+  from {
+    color: #eee;
+    background-color: #666;
+  }
+  to {
+    color: #fff;
+    background-color: #888;
+  }
+}
+@keyframes iluminar {
+  from {
+    color: #eee;
+    background-color: #666;
+  }
+  to {
+    color: #fff;
+    background-color: #888;
+  }
+}
 body {
   padding: 0px;
   margin: 0px;
@@ -24,27 +43,6 @@ footer {
   padding: 5px;
 }
 
-/*Usando anidamiento crear la hoja de estilos para un menú */
-@-webkit-keyframes iluminar {
-  from {
-    color: #eee;
-    background-color: #666;
-  }
-  to {
-    color: #fff;
-    background-color: #888;
-  }
-}
-@keyframes iluminar {
-  from {
-    color: #eee;
-    background-color: #666;
-  }
-  to {
-    color: #fff;
-    background-color: #888;
-  }
-}
 nav {
   position: absolute;
   width: 100%;
@@ -60,21 +58,6 @@ nav ul .submenu {
   position: absolute;
   height: 0px;
   overflow: hidden;
-}
-nav ul li .categoria {
-  float: left;
-}
-nav ul li .categoria > a {
-  transition: padding 0.4s ease-out;
-}
-nav ul li .categoria:hover > a {
-  padding: 10px 20px;
-}
-nav ul li .categoria:hover {
-  height: 100px;
-}
-nav ul li .categoria:hover ul.submenu {
-  height: 100px;
 }
 nav > ul {
   width: 100%;
@@ -98,4 +81,23 @@ nav a:hover {
   transition: height 0.5s ease-out;
   -webkit-animation: iluminar 0.4s linear;
   animation: iluminar 0.4s linear;
+}
+
+.categoria {
+  float: left;
+}
+
+.categoria > a {
+  transition: padding 0.4s ease-out;
+}
+
+.categoria:hover > a {
+  padding: 10px 20px;
+}
+
+.categoria:hover {
+  height: 100px;
+}
+.categoria:hover ul.submenu {
+  height: 100px;
 }/*# sourceMappingURL=screen.css.map */

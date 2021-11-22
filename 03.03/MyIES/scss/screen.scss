@@ -31,6 +31,15 @@ $color_background_hover:#888;
     animation:$name $duration $timing;
 }
 
+@keyframes iluminar {
+    from {
+        @include set_colores_normales;
+    }
+    to {
+        @include set_colores_hover;
+    }
+}
+
 body {
     padding: 0px;
     margin: 0px;
