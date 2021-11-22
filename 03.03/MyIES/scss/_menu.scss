@@ -1,0 +1,35 @@
+/*Usando anidamiento crear la hoja de estilos para un menú */
+@keyframes iluminar {
+    from {
+        background-color: #666;
+        color: #eee;
+    }
+    to {
+        background-color: #888;
+        color: #fff;
+    }
+}
+nav {
+    ul {
+        ul.submenu {
+            @include transicion(height 0.5s ease-out);
+            
+        }
+        li {
+            li.categoria>a{
+                @include transicion (padding 0.4s ease-out);
+            }
+
+            a {
+                @include set_colores_normales;
+            }
+
+            a:hover{
+                @include set_colores_hover;
+                @include transicion(height 0.5s ease-out);
+                @include animacion(iluminar,0.4s,linear);
+            }
+
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import "menu";
+$color_texto: #eee;
+$color_texto_hover:#fff;
+$color_background:#666;
+$color_background_hover:#888;
+
+@mixin set_colores_normales {
+    background-color: $color_background;
+    color: $color_texto;
+}
+
+@mixin set_colores_hover {
+    background-color: $color_background_hover;
+    color: $color_texto_hover;
+}
+
+@mixin set_box-sizing($valor){
+    box-sizing: $valor;
+}
+
+@mixin transicion($property,$duration,$timing:linear) {
+    background-color: $property;
+    -webkit-transition:$duration $timing;
+    -moz-transition: $duration $timing;
+    transition:$duration $timing;
+}
+
+@mixin animacion($name,$duration,$timing:linear) {
+    -webkit-animation:$name $duration $timing;
+    -moz-animation:$name $duration $timing;
+    animation:$name $duration $timing;
+}
+
+
+
