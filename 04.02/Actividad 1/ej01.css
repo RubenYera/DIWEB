@@ -116,6 +116,9 @@ body
         margin: 0;
 
     }
+    .feature-image{
+        display: none;
+    }
 
     #extras
     {
