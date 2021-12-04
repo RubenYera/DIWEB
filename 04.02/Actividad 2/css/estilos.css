@@ -75,7 +75,19 @@ section.images img {
 
 /* Para el caso de pantalla superior a 576px */
 @media (min-width: 577px){
-  
+  header nav{
+    width: 45%;
+  }
+  header nav div {
+    float: left;
+    text-align: center;
+  }
+  .icon{
+    display: inline-block;
+  }
+  .menu_item{
+    width: 30%;
+  }
   section.main_text{
     width: 50%;
   }
@@ -85,14 +97,26 @@ section.images img {
   section.images img {
     width: 50%;
   }
-
   .novedades article{
     float: right;
     width: 25%;
+  }
+  .hidden {
+    display: inline-block;
   }
 }
 
 /* Para el caso de pantalla superior a 992px */
 @media (min-width:992px){
-
+  .images {
+    display: block;
+    float: left;
+  }
+  .main_text{
+    display: block;
+    float: right;
+  }
+  section.images img {
+    width: 33%;
+  }
 }
