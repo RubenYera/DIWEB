@@ -1,0 +1,16 @@
+.azul{
+    padding: 10px;
+    background-color: #17A2B8;
+}
+
+form{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #007BFF;
+}
+
+#enviar {
+    background-color: #007BFF;
+    border: 0px;
+    border-radius: 5px;
+}
