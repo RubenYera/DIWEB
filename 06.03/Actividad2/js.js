@@ -65,6 +65,7 @@ function accionMenosVolumen()
         medio.volume-=0.05;
     }
   //Contemplar que el valor mínimo de volumen es 0
+  
 }
 
 function iniciar() 
